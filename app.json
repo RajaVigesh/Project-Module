@@ -1,0 +1,30 @@
+{
+  "id": "8f2c1a3e-6b7d-4e2a-9c1f-4d5e6a7b8c9d",
+  "name": "ACS Sales Quote to Project Billing",
+  "publisher": "Cetas Information Technology",
+  "version": "1.0.0.0",
+  "brief": "Sales Quote to Project consolidation, vendor cost resolution, item approval, and vendor activity/project billing extension for ACS.",
+  "description": "Implements ACS_Sales_Quote_FDD_Project_Billing_v1.2 gaps 1-10: vendor cost/gross margin resolution on Sales Quote lines, quote-to-project consolidation (PEP model), item approval workflow, vendor activity confirmation and project billing.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "idRanges": [
+    {
+      "from": 70200000,
+      "to": 70200999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [ "TranslationFile" ]
+}
