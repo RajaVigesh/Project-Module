@@ -1,4 +1,4 @@
-page 70200008 "ACS Existing Project Lookup"
+page 90100 "ACS Existing Project Lookup"
 {
     ApplicationArea = All;
     Caption = 'Attach to Existing Project';
@@ -52,11 +52,10 @@ page 70200008 "ACS Existing Project Lookup"
 
         Rec.FilterGroup(4);
         Rec.SetRange("Bill-to Customer No.", SalesHeader."Bill-to Customer No.");
-        Rec.SetRange(Status, Rec.Status::Open);
-        Rec.SetRange("Starting Date", SalesHeader."ACS Quote Start Date");
-        Rec.SetRange("Ending Date", SalesHeader."ACS Quote End Date");
-        if ShortcutDimCode <> '' then
-            Rec.SetRange("Shortcut Dimension 5 Code", ShortcutDimCode);
+        Rec.SetRange(Status, Rec.Status::Planning);
+        Rec.SetRange("Starting Date", SalesHeader."SO START DATE");
+        Rec.SetRange("Ending Date", SalesHeader."SO END DATE");
+        Rec.SetRange("ShortCut Dimension 5 Code", SalesHeader."ShortCut Dimension 5 Code");
         Rec.FilterGroup(0);
     end;
 

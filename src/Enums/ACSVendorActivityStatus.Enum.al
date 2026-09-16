@@ -1,4 +1,4 @@
-enum 70200026 "ACS Vendor Activity Status"
+enum 90102 "ACS Vendor Activity Status"
 {
     Extensible = true;
 

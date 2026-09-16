@@ -3,7 +3,7 @@
 // doesn't list an object for. Implemented as a hardcoded FilterGroup(4) filter (per section
 // 11's FilterGroup convention) applied on open, so it never collides with a user's own
 // filters and isn't a personalization/saved view.
-pageextension 70200028 "ACS Sales Quote List Ext" extends "Sales Quote List"
+pageextension 90103 "ACS Sales Quote List Ext" extends "Sales Quotes"
 {
     layout
     {
@@ -14,13 +14,17 @@ pageextension 70200028 "ACS Sales Quote List Ext" extends "Sales Quote List"
                 ApplicationArea = All;
                 ToolTip = 'Specifies the ACS quote lifecycle status.';
             }
+            field("ACS Linked Project No."; Rec."ACS Linked Project No.")
+            {
+                ApplicationArea = all;
+            }
         }
     }
 
     trigger OnOpenPage()
     begin
-        Rec.FilterGroup(4);
-        Rec.SetRange("ACS Quote Status", Rec."ACS Quote Status"::Open);
-        Rec.FilterGroup(0);
+        // Rec.FilterGroup(4);
+        //Rec.SetRange("ACS Quote Status", Rec."ACS Quote Status"::Open);
+        // Rec.FilterGroup(0);
     end;
 }

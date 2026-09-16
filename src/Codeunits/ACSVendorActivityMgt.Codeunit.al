@@ -1,4 +1,4 @@
-codeunit 70200020 "ACS Vendor Activity Mgt."
+codeunit 90107 "ACS Vendor Activity Mgt."
 {
     // ---- Retrieval (RetrievePlanningLines procedure) ----
     procedure RetrievePlanningLines(var Header: Record "ACS Vendor Activity Header")
@@ -122,9 +122,9 @@ codeunit 70200020 "ACS Vendor Activity Mgt."
                 ActivityLine.Status := ActivityLine.Status::Created;
                 ActivityLine.Modify(true);
                 SubmittedCount += 1;
-                // Submitted lines drop out of the "eligible" retrieval filter automatically
-                // (BuildExclusionSet now finds them at Status = Created) - no second
-                // exclusion mechanism, per rule 5.
+            // Submitted lines drop out of the "eligible" retrieval filter automatically
+            // (BuildExclusionSet now finds them at Status = Created) - no second
+            // exclusion mechanism, per rule 5.
             until ActivityLine.Next() = 0;
 
         Message(SubmittedMsg, SubmittedCount);
@@ -137,7 +137,7 @@ codeunit 70200020 "ACS Vendor Activity Mgt."
         SubmitVendorActivityEventDescriptionTxt: Label 'Vendor activity line is submitted for approval';
     begin
         WorkflowEventHandling.AddEventToLibrary(
-            RunWorkflowOnSubmitVendorActivityCode(), Database::"ACS Vendor Activity Line", SubmitVendorActivityEventDescriptionTxt, 0);
+            RunWorkflowOnSubmitVendorActivityCode(), Database::"ACS Vendor Activity Line", SubmitVendorActivityEventDescriptionTxt, 0, true);
     end;
 
     procedure RunWorkflowOnSubmitVendorActivityCode(): Code[128]

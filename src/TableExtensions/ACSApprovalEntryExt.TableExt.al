@@ -1,4 +1,4 @@
-tableextension 70200021 "ACS Approval Entry Ext" extends "Approval Entry"
+tableextension 90100 "ACS Approval Entry Ext" extends "Approval Entry"
 {
     fields
     {

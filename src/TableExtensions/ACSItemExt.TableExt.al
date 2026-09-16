@@ -1,4 +1,4 @@
-tableextension 70200011 "ACS Item Ext" extends Item
+tableextension 90101 "ACS Item Ext" extends Item
 {
     fields
     {

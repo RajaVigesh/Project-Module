@@ -1,4 +1,4 @@
-codeunit 70200016 "ACS Project Task Creation Mgt."
+codeunit 90102 "ACS Project Task Creation Mgt."
 {
     // Gap 6d. Builds one Job Task per distinct Item Category Code on the quote and one Job
     // Planning Line per quote line (Item lines under their category's task; Comment lines
@@ -99,9 +99,14 @@ codeunit 70200016 "ACS Project Task Creation Mgt."
         JobPlanningLine.Validate("Unit Price", SalesLine."Unit Price");
         JobPlanningLine."Planning Date" := SalesHeader."ACS Quote Start Date";
         JobPlanningLine."ACS CIT Vendor No." := SalesLine."ACS Vendor No.";
+        JobPlanningLine."ACS Vendor Name" := SalesLine."ACS Vendor Name";
         JobPlanningLine."ACS Item Category Code" := SalesLine."Item Category Code";
         JobPlanningLine."ACS Source Quote No." := SalesHeader."No.";
         JobPlanningLine."ACS Source Quote Line No." := SalesLine."Line No.";
+        JobPlanningLine."ACS Non-Market Item" := SalesLine."ACS Non-Market Item";
+        JobPlanningLine."Planning Date" := SalesHeader."SO START DATE";
+        JobPlanningLine."Planned Delivery Date" := SalesHeader."SO END DATE";
+        jobPlanningLine."Item Reference No." := SalesLine."Item Reference No.";
         JobPlanningLine.Modify(true);
 
         LastItemJobPlanningLine := JobPlanningLine;
@@ -122,6 +127,7 @@ codeunit 70200016 "ACS Project Task Creation Mgt."
         JobPlanningLine.Validate(Description, SalesLine.Description);
         JobPlanningLine."ACS Source Quote No." := ParentJobPlanningLine."ACS Source Quote No.";
         JobPlanningLine."ACS Source Quote Line No." := SalesLine."Line No.";
+        JobPlanningLine."ACS CIT Vendor No." := ParentJobPlanningLine."ACS CIT Vendor No.";
         JobPlanningLine.Modify(true);
     end;
 

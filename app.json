@@ -10,14 +10,27 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "72fe3b23-9400-4d32-b0a3-898607388bfb",
+      "name": "ACS",
+      "publisher": "Cetas Information Technology",
+      "version": "27.5.0.20260731"  
+    },
+    {
+      "id": "6da8dd2f-e698-461f-9147-8e404244dd85",
+      "name": "Continia Document Capture",
+      "publisher": "Continia Software",
+      "version": "28.2.1.275748"
+    }
+  ],
   "screenshots": [],
-  "platform": "26.0.0.0",
-  "application": "26.0.0.0",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
   "idRanges": [
     {
-      "from": 70200000,
-      "to": 70200999
+      "from": 90100,
+      "to": 90200
     }
   ],
   "resourceExposurePolicy": {
@@ -25,6 +38,6 @@
     "allowDownloadingSource": true,
     "includeSourceInSymbolFile": true
   },
-  "runtime": "14.0",
+  "runtime": "17.0",
   "features": [ "TranslationFile" ]
 }

@@ -1,4 +1,4 @@
-enum 70200004 "ACS Sales Quote Status"
+enum 90101 "ACS Sales Quote Status"
 {
     Extensible = true;
 
@@ -6,11 +6,15 @@ enum 70200004 "ACS Sales Quote Status"
     {
         Caption = 'Open';
     }
-    value(1; Completed)
+    value(1; Closed)
+    {
+        Caption = 'Closed';
+    }
+    value(2; Completed)
     {
         Caption = 'Completed';
     }
-    value(2; Cancelled)
+    value(3; Cancelled)
     {
         Caption = 'Cancelled';
     }

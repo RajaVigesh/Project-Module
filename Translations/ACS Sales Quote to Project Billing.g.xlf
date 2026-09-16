@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ACS Sales Quote to Project Billing">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 284330233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachment Transfer Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Attachment Transfer Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 284330233 - Field 2469346019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Attachment ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Attachment Transfer Log - Field Source Attachment ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 284330233 - Field 203094225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Project No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Attachment Transfer Log - Field Source Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 284330233 - Field 2318690873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Sales Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Attachment Transfer Log - Field Target Sales Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 284330233 - Field 3195149791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transferred At</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Attachment Transfer Log - Field Transferred At - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Activity Confirmation Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 2615791210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Period End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 2082466019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Period Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 3420040726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No. Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Project No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 343997089 - Field 2648264013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No. Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Header - Field Vendor No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Activity Confirmation Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 1641064374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty to Invoice Updated</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field ACS Qty To Invoice Updated - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 1627934968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approval Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Approval Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 3182586253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 1908272084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 4214889165 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Planning Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Job Planning Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 561421623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Job Task No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 1682823249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planned Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Planned Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 345895448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reported Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Reported Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 381961415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1665583962 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ACS Vendor Activity Line - Field Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1661579828 - Method 3642863901 - NamedType 3848394808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 has %2 item line(s) without an Item Category Code. Item Category Code is required on every item line before a project can be created.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no., %2 = count of offending lines</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Project Task Creation Mgt. - Method ValidateQuoteLinesHaveCategory - NamedType MissingCategoryLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1661579828 - Method 3642863901 - NamedType 3359697259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 has no lines. Add at least one line before creating a project.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Project Task Creation Mgt. - Method ValidateQuoteLinesHaveCategory - NamedType NoLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2622026865 - NamedType 3908359631" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. to Invoice could not be updated automatically for Job %1, Job Task %2 (%3). Update it manually before invoicing.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = job no., %2 = job task no., %3 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Qty To Invoice Mgt. - NamedType QtyToInvoiceUpdateFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3207420291 - NamedType 3368317011" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document attachments could not be copied to the new project automatically (%1). Copy them manually if required.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote Attachment Transfer - NamedType TransferFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 3492272522 - NamedType 4052133909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 has been attached to Project %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no., %2 = project no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method AttachToExistingProject - NamedType AttachedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 3492272522 - NamedType 4281396225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 has already been attached to Project %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no., %2 = project no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method AttachToExistingProject - NamedType AlreadyOnProjectErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 1947526207 - NamedType 2862621378" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project creation failed for Sales Quote %1. Check Job setup and required values.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Sales Quote No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method CreateNewProject - NamedType JobCreateErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 4159146460 - NamedType 1379462610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job %1 has been created and opened successfully.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Job No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method FinalizeConsolidation - NamedType JobCreatedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 2471910542 - NamedType 1498005071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to attach the Sales Quote to an existing Project?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunCreateProjectFlow - NamedType AttachToExistingQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 2471910542 - NamedType 258279806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 is already linked to Project %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no., %2 = project no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunCreateProjectFlow - NamedType AlreadyLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 2471910542 - NamedType 3516525240" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected Sales Quote has been cancelled and cannot be used for Project creation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunCreateProjectFlow - NamedType CancelledQuoteErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 1666258135 - NamedType 1498005071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to attach the Sales Quote to an existing Project?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunExistingProjectFlow - NamedType AttachToExistingQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 1666258135 - NamedType 258279806" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Quote %1 is already linked to Project %2.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = quote no., %2 = project no.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunExistingProjectFlow - NamedType AlreadyLinkedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2680340799 - Method 1666258135 - NamedType 3516525240" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected Sales Quote has been cancelled and cannot be used for Project creation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Quote To Project Mgt. - Method RunExistingProjectFlow - NamedType CancelledQuoteErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 472046897 - Method 1618521576 - NamedType 1850715108" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to cancel this Sales Quote? Once cancelled, the Sales Quote cannot be used to create a Project.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Sales Quote Status Mgt. - Method CancelQuote - NamedType CancelQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1263174508 - Method 1369240716 - NamedType 54696385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor activity line is submitted for approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Activity Mgt. - Method OnAddWorkflowEventsToLibrary - NamedType SubmitVendorActivityEventDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1263174508 - Method 2226105700 - NamedType 4038821843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This batch has %1 open line(s) with a zero or blank Reported Quantity. Enter a Reported Quantity before submitting for approval.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Activity Mgt. - Method SubmitForApproval - NamedType InvalidLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1263174508 - Method 2226105700 - NamedType 1809655799" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no open lines to submit in this batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Activity Mgt. - Method SubmitForApproval - NamedType NoOpenLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1263174508 - Method 2226105700 - NamedType 1286905756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No approval workflow is enabled for vendor activity confirmation. Set one up in Workflows before submitting.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Activity Mgt. - Method SubmitForApproval - NamedType NoWorkflowSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1263174508 - Method 2226105700 - NamedType 413637076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 line(s) submitted for approval.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Activity Mgt. - Method SubmitForApproval - NamedType SubmittedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2981683122 - NamedType 88456392" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor/cost lookup could not be completed automatically (%1). Enter Vendor No. and Vendor Unit Cost manually.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Cost Mgt. - NamedType ResolutionFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2981683122 - NamedType 4037195494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shortcut Dimension 5 is not configured in General Ledger Setup. This is required for vendor cost resolution.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ACS Vendor Cost Mgt. - NamedType ShortcutDim5NotSetUpErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - NamedType 1315268824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Approval Workflows</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - NamedType JobAppWorkflowDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - NamedType 3154956349" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JBQAPW-1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - NamedType JobRecJobAppWorkflowCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - NamedType 934401711" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - NamedType JobRecJobDocCategoryDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - NamedType 34487112" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobs</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - NamedType JobRecJobDocCategoryTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - NamedType 4005917478" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This record is not supported by related approval workflow</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - NamedType NoWorkflowEnabledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - Method 2813655894 - NamedType 2449060846" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An Approval of a Job is requested</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - Method AddCustomWorkflowEventsToLibrary - NamedType JobSendForApprovalEventDesctxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - Method 2813655894 - NamedType 3909119468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An Approval of a Job is Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - Method AddCustomWorkflowEventsToLibrary - NamedType JobCancelForApprovalEventDesctxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - Method 351166831 - NamedType 468796445" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;?xml version="1.0" encoding="utf-8" standalone="yes"?&gt;&lt;ReportParameters&gt;&lt;DataItems&gt;&lt;DataItem name="Job"&gt;%1&lt;/DataItem&gt;&lt;/DataItems&gt;&lt;/ReportParameters&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - Method BuildJobCreateConditions - NamedType JobCreateConditionsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - Method 299435810 - NamedType 1634472915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 has been sent for approval.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - Method ManuallyReleaseJobHeader - NamedType ErrorMsgPendingApproval</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1265364656 - Method 299435810 - NamedType 1186372204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This document can only be released when the approval process is complete.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit ApprovalsMgmtCustom - Method ManuallyReleaseJobHeader - NamedType CheckWorkflowenabled</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 641689885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job %1 is not open. Select lines on open jobs only.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Job No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType JobNotOpenErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 3324403855" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No. is missing on these planning lines (Job / Task / Line): %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = list</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType MissingVendorErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 3359697259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No planning lines are selected.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType NoLinesErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 1717022948" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No posted purchase invoices have been created for job %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Job No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType NoPostedPurchaseInvoicesMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 2062365778" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No purchase orders have been created for job %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Job No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType NoPurchaseOrdersMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 3159754395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to order. %1 line(s) are already covered by purchase orders.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType NothingToOrderMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 1000503204" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 purchase order(s) created. %2 line(s) skipped.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = PO count, %2 = skipped count</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType ResultMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1529700350 - NamedType 1562034818" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning line %1 / %2 / %3 has a type that cannot be purchased.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Job No., %2 = Task No., %3 = Line No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Job Planning Line-Create PO - NamedType TypeNotSupportedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 540679521 - NamedType 3368317011" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project document attachments could not be copied to Sales Invoice %1 automatically (%2). Copy them manually if required.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = invoice no., %2 = error text</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Proj Invoice Attachment Mgt. - NamedType TransferFailedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 1893727951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attach to Existing Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ACS Existing Project Lookup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2663996660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All Quotes (All Statuses)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ACS Sales Quote List All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2122391718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ACS Vendor Activity Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Activity Confirmation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Action 28976698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieves eligible Job Planning Lines matching the batch filters, excluding lines already submitted for or approved in a prior batch.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Action RetrievePlanningLines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Action 28976698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieve Planning Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Action RetrievePlanningLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Action 2226105700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submits the Open lines in this batch for approval via the standard approval workflow.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Action SubmitForApproval - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1629096186 - Action 2226105700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submit for Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vendor Activity Confirmation - Action SubmitForApproval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964809545 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Workflow Template Deletion - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 1964809545 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Workflow Template Deletion - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Report 1964809545 - Control 3667002919 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Workflow Template Deletion - Control CategoryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1964809545 - Control 1382424194 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WorkFlow Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Workflow Template Deletion - Control WorkFlowCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2932212387 - Control 1685313407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the approval status of this item. Only Active items can be used on sales, purchase, or job transaction lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Item Card Ext - Control ACS Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Action 3423458855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Create Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Action CreatePurchaseOrderNew - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Action 22466541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Posted Purchase Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Action ShowPostedPurchaseInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Action 2164179751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Action ShowPurchaseOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Action 2993673420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Open the project journal, for example, to post usage for a project.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Action &amp;Open Job JournalNew - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Action 2993673420 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>&amp;Open Project Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Action &amp;Open Job JournalNew - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3040597976 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Specifies the vendor resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS CIT Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3040597976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS CIT Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 2705878123 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Specifies the item category code resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS Item Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 2705878123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Item Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 1604629771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Source Quote No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS Source Quote No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Specifies the name of the vendor resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3382746662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Purchase Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 128314571 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Qty. Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control Qty Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3029828994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Qty. to Transfer to Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control Qty to Transfer to Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 2975378708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control Remaining Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 205888367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Qty. Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control QtyPosted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3948462483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Specifies the reference number of the item resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control Item Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Control 3948462483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Item Reference No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Control Item Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4242861001 - Change 875188644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2097003905">
+          <source>Usage Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Job Planning Lines Ext - Change Qty. to Transfer to Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1416874486 - Change 1423228072 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Specifies the unit price of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Change CIT Product No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1416874486 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Specifies the vendor name from the vendor master.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Control ACS Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1416874486 - Control 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Control ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1416874486 - Change 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Specifies the unit cost of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Change Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2253953776 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4165496608">
+          <source>Specifies the vendor name from the vendor master.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Purchase Price List Ext - Control ACS Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2253953776 - Control 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4165496608">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Purchase Price List Ext - Control ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 279598167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Cancels the sales quote. A cancelled quote cannot be used to create or be attached to a project.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Cancel Quote - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 279598167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Cancel Quote</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Cancel Quote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 2925104140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Creates a new project from this quote, or attaches this quote to an existing open project for the same customer (PEP consolidation).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Create Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 2925104140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Create Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Create Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 868748977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Creates a new project from this quote, or attaches this quote to an existing open project for the same customer (PEP consolidation).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Existing Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Action 868748977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Existing Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Action ACS Existing Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Control 532955942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the project this quote has been consolidated into.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Control ACS Linked Project No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Control 1071970484 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the intended project end date, used to match against existing projects when consolidating quotes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Control ACS Quote End Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Control 1511576217 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the intended project start date, used to match against existing projects when consolidating quotes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Control ACS Quote Start Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3592963142 - Control 4021267441 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Specifies the ACS quote lifecycle status: Open, Closed (project created), Completed (linked project completed), or Cancelled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Ext - Control ACS Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484055624 - Control 175654444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies the gross margin percentage calculated from Unit Price and Vendor Unit Cost. (Unit Price - Vendor Unit Cost) / Unit Price x 100.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Line Ext - Control ACS Gross Margin % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484055624 - Control 3396075750 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies that no Purchase Price List match was found for this item/customer combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Line Ext - Control ACS Non-Market Item - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484055624 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies the name of the vendor resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Line Ext - Control ACS Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484055624 - Control 269975934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies the vendor resolved from the Purchase Price List for this customer, or entered manually when no match was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Line Ext - Control ACS Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 484055624 - Control 3344445076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 416138076">
+          <source>Specifies the vendor unit cost used to calculate the gross margin.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote Line Ext - Control ACS Vendor Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1714606764 - Control 4021267441 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Specifies the ACS quote lifecycle status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Sales Quote List Ext - Control ACS Quote Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1657559406 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1571666526">
+          <source>Specifies the vendor name from the vendor master.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Vendor Item Catalog Ext - Control ACS Vendor Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1657559406 - Control 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1571666526">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Vendor Item Catalog Ext - Control ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2889890743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Action3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 4032263875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Release the document to the next stage of processing. You must reopen the document before you can make changes to it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Release - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Re&amp;lease</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2071937805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Reopen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2071937805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Re&amp;open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Reopen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3860314472 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Approvals - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3860314472 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Approvals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Approvals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2943857409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Cancel Approval Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action CancelJobApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 795109167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Send Approval Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action SendJobApprovalRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3527595597 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Close the project and prevent further project processing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action CloseProject - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3527595597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Close Project</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action CloseProject - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3527595597 - Method 1377591017 - NamedType 894711439" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2189319958">
+          <source>Do you want to close project %1?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = project number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action CloseProject - Method OnAction - NamedType CloseProjectQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 97664603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Create Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action CreatePOsFromJob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2541524137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Posted Purchase Invoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action ShowPostedPurchaseInvoicesForJob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 865220395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Purchase Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action ShowPurchaseOrdersForJob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 3968963858 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Release</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 9.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Category_Category1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Action 2055874007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Approval</source>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 10.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Action Category_Category2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 980634250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 3 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3307140587 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 4 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 716701452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 5 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 2845814189 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 6 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 508731918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 7 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3607641183 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer code for this project, used to match against existing quotes when consolidating projects.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ShortCut Dimension 8 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3734556854 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer posting group copied from the sales quote.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ACS Customer Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3734556854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Customer Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control ACS Customer Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3789838260 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the customer purchase order number for this project.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control Customer PO Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 3789838260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Customer PO No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control Customer PO Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 2826377252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the sales person responsible for this project.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control Sales Person Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 512684737 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Specifies the products or service being offered</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control WorkDescription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2189319958 - Control 512684737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4010542053">
+          <source>Work Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control WorkDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4110536417 - Control 3002277753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
+          <source>Sales quote price Editable</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension User Setup Ext - Control ACS Allow Edit JPL Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4162761757 - Field 1702741363 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1753259445">
+          <source>Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Approval Entry Ext - Field ACS Job No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4162761757 - Field 2012264048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1753259445">
+          <source>Job Task No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Approval Entry Ext - Field ACS Job Task No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 323392367 - Field 1685313407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Item Ext - Field ACS Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3393971971 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2064785779">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Item Vendor Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2879102236 - Field 210885613 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 938095748">
+          <source>Vendor Activity Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Journal Line Ext - Field ACS Vendor Activity Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2879102236 - Field 2637318003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 938095748">
+          <source>Vendor Activity Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Journal Line Ext - Field ACS Vendor Activity Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 3040597976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>CIT Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS CIT Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 2705878123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Item Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Item Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 3396075750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Non-Market Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Non-Market Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 3077210889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Source Sales Quote Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Source Quote Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 1604629771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Source Sales Quote No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Source Quote No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 3344445076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Vendor Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field ACS Vendor Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 3948462483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Item Reference No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field Item Reference No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 2877945414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Purchase Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field Purchase Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3398997024 - Field 2975378708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1537641792">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Job Planning Line Ext - Field Remaining Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2499091788 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1961578924">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Price List Header Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2412534755 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2964960979">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Price List Line Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3312296970 - Field 659593604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3105979010">
+          <source>Customer Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Purchase Price Ext - Field ACS Customer Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3312296970 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3105979010">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Purchase Price Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 599604129 - Field 532955942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Linked Project No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Header Ext - Field ACS Linked Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 599604129 - Field 1071970484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Quote End Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Header Ext - Field ACS Quote End Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 599604129 - Field 1511576217 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Quote Start Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Header Ext - Field ACS Quote Start Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 599604129 - Field 4021267441 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Quote Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Header Ext - Field ACS Quote Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - NamedType 1292125037" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 15392938">
+          <source>No purchase price list or vendor catalog was found for item %1. Do you want to use the item card unit cost as the vendor unit cost?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - NamedType NoVendorSourceConfirmMsg</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 175654444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Gross Margin %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Gross Margin % - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 3396075750 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Non-Market Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Non-Market Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 967681146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor Unit Cost Resolved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Vendor Cost Resolved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 2067094262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Vendor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 269975934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 2793384358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor No. Resolved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Vendor No. Resolved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 15392938 - Field 3344445076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Vendor Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS Sales Line Ext - Field ACS Vendor Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3949265146 - Field 3002277753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 337631938">
+          <source>Allow Edit Job Planning Line Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ACS User Setup Ext - Field ACS Allow Edit JPL Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 3734556854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Customer Posting Group</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ACS Customer Posting Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 1878856189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Approval Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field Approval Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 2604240915 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Work Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field CIT Work Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 3789838260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Customer PO Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field Customer PO Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 423949069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>PO Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field PO Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 2826377252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Salesperson Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field Sales Person Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 424950442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 3 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 3 code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 3307140587 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 4 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 4 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 716701452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 5 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 5 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 2845814189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 6 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 6 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 508731918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 7 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 7 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 672492378 - Field 3607641183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2818324089">
+          <source>Shortcut Dimension 8 Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 8 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2319120337 - EnumValue 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Item Approval Status - EnumValue Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2319120337 - EnumValue 253238575 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Draft</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Item Approval Status - EnumValue Draft - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2319120337 - EnumValue 1487485508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Item Approval Status - EnumValue Pending Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2319120337 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Item Approval Status - EnumValue Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120264889 - EnumValue 4069904181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Sales Quote Status - EnumValue Cancelled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120264889 - EnumValue 1778072510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Closed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Sales Quote Status - EnumValue Closed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120264889 - EnumValue 3665605423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Sales Quote Status - EnumValue Completed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3120264889 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Sales Quote Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1926205944 - EnumValue 2913119229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Vendor Activity Status - EnumValue Approved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1926205944 - EnumValue 1249475212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Vendor Activity Status - EnumValue Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1926205944 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Vendor Activity Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1926205944 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ACS Vendor Activity Status - EnumValue Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2797130792 - EnumValue 1249475212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Job PO Status - EnumValue Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2797130792 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Job PO Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2797130792 - EnumValue 994888682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partially Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Job PO Status - EnumValue Partially Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2797130792 - EnumValue 35450067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Job PO Status - EnumValue Posted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3324250762 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Project Approval Status - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3324250762 - EnumValue 1487485508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Project Approval Status - EnumValue Pending Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3324250762 - EnumValue 496445946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Project Approval Status - EnumValue Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3324250762 - EnumValue 4020758431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Project Approval Status - EnumValue Released - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 155044736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ACS Sales Project Ext - Full Access</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Sales Project Ext - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

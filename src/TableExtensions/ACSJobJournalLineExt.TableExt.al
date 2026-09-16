@@ -4,7 +4,7 @@
 // No./Job Task No./Job Planning Line No. alone, which is ambiguous once more than one
 // activity line has ever referenced the same planning line across confirmation cycles.
 // These two fields make the link exact.
-tableextension 70200031 "ACS Job Journal Line Ext" extends "Job Journal Line"
+tableextension 90102 "ACS Job Journal Line Ext" extends "Job Journal Line"
 {
     fields
     {

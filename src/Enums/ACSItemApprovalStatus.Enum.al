@@ -1,4 +1,4 @@
-enum 70200012 "ACS Item Approval Status"
+enum 90100 "ACS Item Approval Status"
 {
     Extensible = true;
 

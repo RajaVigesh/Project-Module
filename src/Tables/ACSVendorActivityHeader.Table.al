@@ -1,8 +1,8 @@
-table 70200017 "ACS Vendor Activity Header"
+table 90101 "ACS Vendor Activity Header"
 {
     Caption = 'Vendor Activity Confirmation Batch';
     DataClassification = CustomerContent;
-    LookupPageId = "ACS Vendor Activity Confirmation";
+    //LookupPageId = "Vendor Activity Confirmation";
 
     fields
     {

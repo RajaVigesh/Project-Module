@@ -5,21 +5,28 @@
 // filter in ACS Vendor Cost Mgt. is something that actually compiles and runs; if ACS's
 // Purchase Price Lists already carry this via Dimension Set ID or a different mechanism,
 // swap the field reference in ACS Vendor Cost Mgt.ResolveVendorAndCost accordingly.
-tableextension 70200029 "ACS Purchase Price Ext" extends "Purchase Price"
+tableextension 90104 "ACS Purchase Price Ext" extends "Purchase Price"
 {
     fields
     {
-        field(70200000; "ACS Customer Code"; Code[20])
+        field(90100; "ACS Customer Code"; Code[20])
         {
             Caption = 'Customer Code';
             DataClassification = CustomerContent;
         }
-    }
-
-    keys
-    {
-        key(ACSCustomerCode; "ACS Customer Code", "Item No.", "Vendor No.")
+        field(90101; "ACS Vendor Name"; Text[100])
         {
+            Caption = 'Vendor Name';
+            FieldClass = FlowField;
+            CalcFormula = lookup(Vendor.Name where("No." = field("Vendor No.")));
+            Editable = false;
         }
     }
+
+    // keys
+    // {
+    //     key(ACSCustomerCode; "ACS Customer Code", "Item No.", "Vendor No.")
+    //     {
+    //     }
+    // }
 }

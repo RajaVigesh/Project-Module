@@ -1,4 +1,4 @@
-page 70200019 "ACS Vendor Activity Confirmation"
+page 90102 "Vendor Activity Confirmation"
 {
     ApplicationArea = All;
     Caption = 'Vendor Activity Confirmation';

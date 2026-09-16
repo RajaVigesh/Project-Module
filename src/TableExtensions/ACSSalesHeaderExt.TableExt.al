@@ -1,4 +1,4 @@
-tableextension 70200002 "ACS Sales Header Ext" extends "Sales Header"
+tableextension 90105 "ACS Sales Header Ext" extends "Sales Header"
 {
     fields
     {

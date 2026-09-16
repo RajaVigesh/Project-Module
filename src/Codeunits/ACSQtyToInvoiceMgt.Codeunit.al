@@ -1,16 +1,16 @@
-codeunit 70200022 "ACS Qty To Invoice Mgt."
+codeunit 90103 "ACS Qty To Invoice Mgt."
 {
     // [Likely] "Job Jnl.-Post Line" publishing OnAfterPostJobJnlLine mirrors the equivalent
     // event on the item/resource journal posting codeunits - verify the exact event name
     // against the target base app version before deploying.
-    [EventSubscriber(ObjectType::Codeunit, Codeunit::"Job Jnl.-Post Line", 'OnAfterPostJobJnlLine', '', false, false)]
-    local procedure OnAfterPostJobJnlLine(JobJournalLine: Record "Job Journal Line")
-    begin
-        if not TryUpdateQtyToInvoice(JobJournalLine) then
-            LogFailure(JobJournalLine, GetLastErrorText);
-        // Wrapped in TryFunction (rule 6) - this must never block or roll back the job
-        // journal posting itself, which has already completed by the time this fires.
-    end;
+    // [EventSubscriber(ObjectType::Codeunit, Codeunit::"Job Jnl.-Post Line", 'onafterpostre', '', false, false)]
+    // local procedure OnAfterCopyJobJnlLine(JobJournalLine: Record "Job Journal Line")
+    // begin
+    //     if not TryUpdateQtyToInvoice(JobJournalLine) then
+    //         LogFailure(JobJournalLine, GetLastErrorText);
+    //     // Wrapped in TryFunction (rule 6) - this must never block or roll back the job
+    //     // journal posting itself, which has already completed by the time this fires.
+    // end;
 
     [TryFunction]
     local procedure TryUpdateQtyToInvoice(JobJournalLine: Record "Job Journal Line")

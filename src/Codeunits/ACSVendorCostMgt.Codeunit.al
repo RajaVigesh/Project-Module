@@ -1,4 +1,4 @@
-codeunit 70200005 "ACS Vendor Cost Mgt."
+codeunit 90108 "ACS Vendor Cost Mgt."
 {
     // ---- Event subscribers (extension-boundary compliant: no base object edits) ----
 
@@ -9,8 +9,21 @@ codeunit 70200005 "ACS Vendor Cost Mgt."
             exit;
         if Rec."Document Type" <> Rec."Document Type"::Quote then
             exit;
-        ResolveVendorAndCost(Rec);
-        CalcGrossMarginPct(Rec);
+        if Rec."ACS Vendor No." <> '' then begin
+            ResolveVendorAndCost(Rec);
+            CalcGrossMarginPct(Rec);
+        end;
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterValidateEvent', 'ACS Vendor No.', false, false)]
+    local procedure OnAfterValidateSalesLineVendorNo(var Rec: Record "Sales Line"; var xRec: Record "Sales Line")
+    begin
+        if Rec."Document Type" <> Rec."Document Type"::Quote then
+            exit;
+        if Rec."ACS Vendor No." <> '' then begin
+            ResolveVendorAndCost(Rec);
+            CalcGrossMarginPct(Rec);
+        end;
     end;
 
     [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnAfterValidateEvent', 'Unit Price', false, false)]
@@ -68,12 +81,13 @@ codeunit 70200005 "ACS Vendor Cost Mgt."
     local procedure TryResolveVendorAndCost(var SalesLine: Record "Sales Line")
     var
         SalesHeader: Record "Sales Header";
-        PurchPrice: Record "Purchase Price";
+        PurchPriceHeader: Record "Price List Header";
+        PurchPriceLine: Record "Price List Line";
         CustomerCode: Code[20];
     begin
         ValidateDimensionSetup();
 
-        Clear(SalesLine."ACS Vendor No.");
+        //Clear(SalesLine."ACS Vendor No.");
         Clear(SalesLine."ACS Vendor Unit Cost");
         SalesLine."ACS Non-Market Item" := false;
         SalesLine."ACS Vendor No. Resolved" := false;
@@ -84,38 +98,39 @@ codeunit 70200005 "ACS Vendor Cost Mgt."
 
         CustomerCode := SalesHeader."Shortcut Dimension 5 Code";
 
-        // Step 3 - no matching Purchase Price List record for the Customer Code:
-        // Vendor No./Vendor Unit Cost blank, Non-Market Item = true, both fields editable.
-        PurchPrice.FilterGroup(4);
-        PurchPrice.SetRange("ACS Customer Code", CustomerCode);
-        PurchPrice.FilterGroup(0);
-        PurchPrice.SetLoadFields("Vendor No.", "Item No.", "Direct Unit Cost", "ACS Customer Code");
-        PurchPrice.SetCurrentKey("ACS Customer Code", "Item No.", "Vendor No.");
-
+        // Step 3 - blank Customer Code: nothing to resolve against.
         if CustomerCode = '' then begin
             SalesLine."ACS Non-Market Item" := true;
             exit;
         end;
-        if PurchPrice.IsEmpty() then begin
+
+        PurchPriceHeader.SetLoadFields("Code", "Source Type", "Source No.", "CIT Shortcut Dimension 5 Code");
+        // PurchPriceHeader.SetCurrentKey("CIT Shortcut Dimension 5 Code", "Assign-to No.");
+        PurchPriceHeader.SetRange("CIT Shortcut Dimension 5 Code", CustomerCode);
+        PurchPriceHeader.SetRange("Source Type", PurchPriceHeader."Source Type"::Vendor);
+        purchPriceHeader.SetRange("Source No.", salesLine."ACS Vendor No.");
+
+        // Step 3 - no matching Purchase Price List header for the Customer Code:
+        // Vendor No./Vendor Unit Cost blank, Non-Market Item = true, both fields editable.
+        if not PurchPriceHeader.FindFirst() then begin
             SalesLine."ACS Non-Market Item" := true;
             exit;
         end;
 
         // Step 4 - Customer Code matched at least one vendor price list; now check Item No.
-        PurchPrice.SetRange("Item No.", SalesLine."No.");
-        if PurchPrice.FindFirst() then begin
+        PurchPriceLine.SetRange("Price List Code", PurchPriceHeader.Code);
+        PurchPriceLine.SetRange("Product No.", SalesLine."No.");
+        if PurchPriceLine.FindFirst() then begin
             // Match found - both fields locked.
-            SalesLine."ACS Vendor No." := PurchPrice."Vendor No.";
-            SalesLine."ACS Vendor Unit Cost" := PurchPrice."Direct Unit Cost";
+            SalesLine."ACS Vendor No." := PurchPriceHeader."Source No.";
+            SalesLine."ACS Vendor Unit Cost" := PurchPriceLine."Direct Unit Cost";
             SalesLine."ACS Non-Market Item" := false;
             SalesLine."ACS Vendor No. Resolved" := true;
             SalesLine."ACS Vendor Cost Resolved" := true;
         end else begin
             // Customer Code matched a vendor, but not this item - Vendor No. resolved/locked,
             // Vendor Unit Cost stays blank and editable.
-            PurchPrice.SetRange("Item No.");
-            PurchPrice.FindFirst();
-            SalesLine."ACS Vendor No." := PurchPrice."Vendor No.";
+            SalesLine."ACS Vendor No." := PurchPriceHeader."Source No.";
             Clear(SalesLine."ACS Vendor Unit Cost");
             SalesLine."ACS Non-Market Item" := true;
             SalesLine."ACS Vendor No. Resolved" := true;
@@ -132,6 +147,50 @@ codeunit 70200005 "ACS Vendor Cost Mgt."
         GLSetup.Get();
         if GLSetup."Shortcut Dimension 5 Code" = '' then
             Error(ShortcutDim5NotSetUpErr);
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Price List Line", OnAfterValidateEvent, 'Product No.', false, false)]
+    local procedure OnAfterValidateEventProductNo(var Rec: Record "Price List Line")
+    Var
+        PriceListHeader: Record "Price List Header";
+    begin
+        if PriceListHeader.Get(Rec."Price List Code") then begin
+            Rec.Validate("CIT Shortcut Dimension 5 Code", PriceListHeader."CIT Shortcut Dimension 5 Code");
+            // Rec.Modify(true);
+        end;
+    end;
+
+    [EventSubscriber(ObjectType::Table, Database::"Price List Line", OnAfterValidateEvent, 'CIT Product No', false, false)]
+    local procedure OnAfterValidateEventCITProductNo(var Rec: Record "Price List Line")
+    Var
+        PriceListHeader: Record "Price List Header";
+    begin
+        if PriceListHeader.Get(Rec."Price List Code") then begin
+            Rec.Validate("CIT Shortcut Dimension 5 Code", PriceListHeader."CIT Shortcut Dimension 5 Code");
+            // Rec.Modify(true);
+        end;
+    end;
+
+    [EventSubscriber(ObjectType::Page, Page::"Purchase Price List", OnAfterActionEvent, 'VerifyLines', false, false)]
+    local procedure OnAfterActionEventVerifyLines(var Rec: Record "Price List Header")
+    var
+        DuplicatePriceLines: Page "Duplicate Price Lines";
+        DuplicatePriceLine: record "Duplicate Price Line";
+        Pricelistmang: Codeunit "Price List Management";
+        BooleanVar: Boolean;
+        PricelistLine: Record "Price List Line";
+        PricelistLine1: Record "Price List Line";
+        PriceListHdrRec: Record "Price List Header";
+    begin
+        PricelistLine.Reset();
+        PricelistLine.SetRange("Price List Code", Rec.code);
+        if PricelistLine.FindSet() then
+            repeat
+                PricelistLine."CIT Shortcut Dimension 3 Code" := Rec."CIT Shortcut Dimension 3 Code";
+                PricelistLine."CIT Shortcut Dimension 5 Code" := Rec."CIT Shortcut Dimension 5 Code";
+                PricelistLine.Modify();
+
+            until PricelistLine.Next() = 0;
     end;
 
     var

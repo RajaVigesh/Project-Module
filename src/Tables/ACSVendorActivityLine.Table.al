@@ -1,4 +1,4 @@
-table 70200018 "ACS Vendor Activity Line"
+table 90102 "ACS Vendor Activity Line"
 {
     Caption = 'Vendor Activity Confirmation Line';
     DataClassification = CustomerContent;
