@@ -52,9 +52,9 @@ page 90100 "ACS Existing Project Lookup"
 
         Rec.FilterGroup(4);
         Rec.SetRange("Bill-to Customer No.", SalesHeader."Bill-to Customer No.");
-        Rec.SetRange(Status, Rec.Status::Planning);
-        Rec.SetRange("Starting Date", SalesHeader."SO START DATE");
-        Rec.SetRange("Ending Date", SalesHeader."SO END DATE");
+        Rec.SetFilter(Status, '%1|%2', Rec.Status::Planning, Rec.Status::Open);
+        Rec.SetFilter("Starting Date", '>=%1', SalesHeader."SO START DATE");
+        Rec.SetFilter("Ending Date", '<=%1', SalesHeader."SO END DATE");
         Rec.SetRange("ShortCut Dimension 5 Code", SalesHeader."ShortCut Dimension 5 Code");
         Rec.FilterGroup(0);
     end;

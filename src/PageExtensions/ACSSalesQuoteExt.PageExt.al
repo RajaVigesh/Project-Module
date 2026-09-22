@@ -94,12 +94,12 @@ pageextension 90101 "ACS Sales Quote Ext" extends "Sales Quote"
 
                     JobRec.Reset();
                     JobRec.SetRange("Sell-to Customer No.", Rec."Sell-to Customer No.");
-                    JobRec.SetRange(Status, JobRec.Status::Planning);
+                    JobRec.SetFilter("Status", '%1|%2', JobRec.Status::Planning, JobRec.Status::Open);
                     JobRec.SetFilter("Starting Date", '>=%1', Rec."SO START DATE");
-                    JobRec.SetFilter("Ending Date", '%1<=', Rec."SO END DATE");
+                    JobRec.SetFilter("Ending Date", '<=%1', Rec."SO END DATE");
                     JobRec.SetRange("Shortcut Dimension 5 Code", Rec."Shortcut Dimension 5 Code");
                     if JobRec.FindFirst() then begin
-                        ACSQuoteToProjectMgt.RunExistingProjectFlow(Rec);
+                        ACSQuoteToProjectMgt.RunExistingProjectFlow(Rec, JobRec);
                         CurrPage.Update(false);
                     end
                     else

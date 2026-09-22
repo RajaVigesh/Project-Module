@@ -2,7 +2,7 @@ pageextension 90117 "ACS Price List Lines Ext" extends "Purchase Price List Line
 {
     layout
     {
-        addafter(SourceNo)
+        addafter(Description)
         {
             field("ACS Vendor Name"; Rec."ACS Vendor Name")
             {
@@ -11,7 +11,7 @@ pageextension 90117 "ACS Price List Lines Ext" extends "Purchase Price List Line
                 ToolTip = 'Specifies the vendor name from the vendor master.';
             }
         }
-        modify("Unit Cost")
+        modify(DirectUnitCost)
         {
             ApplicationArea = All;
             ToolTip = 'Specifies the unit cost of the item.';

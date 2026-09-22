@@ -7,6 +7,18 @@ pageextension 90118 "Sales Invoice SubForm Ext" extends "Sales Invoice Subform"
         {
             editable = true;
         }
+        modify("Item Reference No.")
+        {
+            visible = false;
+        }
+        modify("CIT No.")
+        {
+            visible = true;
+        }
+        modify("No.")
+        {
+            visible = false;
+        }
     }
 
     actions

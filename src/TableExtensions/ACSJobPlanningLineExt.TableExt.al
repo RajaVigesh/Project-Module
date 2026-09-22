@@ -70,7 +70,7 @@ tableextension 90103 "ACS Job Planning Line Ext" extends "Job Planning Line"
             DataClassification = CustomerContent;
             Editable = false;
         }
-        field(90108; "Item Reference No."; Code[20])
+        field(90108; "Item Reference No."; Code[50])
         {
             Caption = 'Item Reference No.';
             DataClassification = CustomerContent;

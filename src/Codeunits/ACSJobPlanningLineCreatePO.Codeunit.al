@@ -591,6 +591,7 @@ codeunit 90109 "Job Planning Line-Create PO"
             PurchHeader.Validate(
                 "Shortcut Dimension 8 Code",
                 Job."Shortcut Dimension 8 Code");
+            PurchHeader.Validate("Your Reference", Job."Customer PO Number");
             //purchHeader.Validate(ref
         end;
 
@@ -645,6 +646,7 @@ codeunit 90109 "Job Planning Line-Create PO"
         PurchLine.Validate(
             "Job Planning Line No.",
             JobPlanningLine."Line No.");
+        PurchLine.Validate("Item Reference No.", JobPlanningLine."Item Reference No.");
 
         /*
             Location

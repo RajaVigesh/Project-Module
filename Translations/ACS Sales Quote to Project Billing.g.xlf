@@ -523,10 +523,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Control ACS Vendor Name - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1416874486 - Change 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+        <trans-unit id="PageExtension 1416874486 - Change 3151161228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
           <source>Specifies the unit cost of the item.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Change Unit Cost - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ACS Price List Lines Ext - Change DirectUnitCost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2253953776 - Control 2067094262 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4165496608">
           <source>Specifies the vendor name from the vendor master.</source>
@@ -778,6 +778,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Card Ext - Control WorkDescription - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3008278152 - Control 1971443255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2077750279">
+          <source>Specifies the total remaining cost for the job task line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Task Lines Subform Ext - Control Total Remaining Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3008278152 - Control 1971443255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2077750279">
+          <source>Total Remaining Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Task Lines Subform Ext - Control Total Remaining Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3008278152 - Control 3640066157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2077750279">
+          <source>Specifies the total remaining price for the job task line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Task Lines Subform Ext - Control Total Remaining Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3008278152 - Control 3640066157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2077750279">
+          <source>Total Remaining Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Job Task Lines Subform Ext - Control Total Remaining Price - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4110536417 - Control 3002277753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 337631938">
           <source>Sales quote price Editable</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1007,6 +1027,16 @@
           <source>Shortcut Dimension 8 Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Ext - Field ShortCut Dimension 8 Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 441794383 - Field 1971443255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2014770230">
+          <source>Total Remaining Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Task Line Ext - Field Total Remaining Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 441794383 - Field 3640066157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2014770230">
+          <source>Total Remaining Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Job Task Line Ext - Field Total Remaining Price - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2319120337 - EnumValue 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Active</source>

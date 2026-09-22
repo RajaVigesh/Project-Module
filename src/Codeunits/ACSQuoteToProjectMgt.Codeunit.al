@@ -42,7 +42,7 @@ codeunit 90105 "ACS Quote To Project Mgt."
             Message('There is already Project Existing for this Filters');
     end;
 
-    procedure RunExistingProjectFlow(var SalesHeader: Record "Sales Header")
+    procedure RunExistingProjectFlow(var SalesHeader: Record "Sales Header"; JobRec: Record Job)
     var
         Job: Record Job;
         ExistingProjectLookup: Page "ACS Existing Project Lookup";
@@ -61,6 +61,7 @@ codeunit 90105 "ACS Quote To Project Mgt."
 
         if Confirm(AttachToExistingQst, false) then begin
             existingProjectLookup.SetProjectFilters(SalesHeader);
+            // ExistingProjectLookup.SetTableView(JobRec);
             ExistingProjectLookup.LookupMode(true);
             if ExistingProjectLookup.RunModal() = Action::LookupOK then begin
                 ExistingProjectLookup.GetRecord(Job);

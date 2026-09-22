@@ -52,6 +52,7 @@ pageextension 90102 "ACS Sales Quote Line Ext" extends "Sales Quote Subform"
                     PurchPriceList.SetRange(
                         "Item Category Code",
                         Rec."Item Category Code");
+                    PurchPriceList.SetRange("Unit of Measure Code", Rec."Unit of Measure Code");
 
                     if not PurchPriceList.IsEmpty() then begin
                         PurchPriceListLookup.SetTableView(PurchPriceList);

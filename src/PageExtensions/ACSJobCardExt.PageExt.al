@@ -280,6 +280,9 @@ pageextension 90104 "Job Card Ext" extends "Job Card"
             actionref(ShowPostedPurchaseInvoicesForJob_Promoted; ShowPostedPurchaseInvoicesForJob)
             {
             }
+            actionref(CloseProject_Promoted; CloseProject)
+            {
+            }
         }
         addafter(Category_Category1)
         {
